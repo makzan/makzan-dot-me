@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Makzan's Life</title>
+    <atom:link href="http://makzan-life.herokuapp.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://makzan-life.herokuapp.com</link>
+    <description>Recording my life.</description>
+    <pubDate>Tue, 11 Sep 2012 23:00:00 +0800</pubDate>
+    <generator>The mighty Wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Gift from Victor – 牛軋糖</title>
+      <link>http://makzan-life.herokuapp.com/articles/001-gift-from-victor/</link>
+      <pubDate>Tue, 11 Sep 2012 23:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://makzan-life.herokuapp.com/articles/001-gift-from-victor/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://makzan-life.herokuapp.com/articles/001-gift-from-victor/IMG_0339.jpg&quot; alt=&quot;image&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;謝謝 &lt;a href=&quot;http://about.me/victorlam&quot;&gt;Victor Lam&lt;/a&gt; 送我台灣手信－牛軋糖。牛軋糖是牛奶糖加少少花生再加唔同既味道，食落有d似澳門紐結糖，或者花生糖。我遲d去台灣都要買一堆返黎做手信。 
+
+&lt;/p&gt;
+&lt;p&gt;▎Makzan • 兆康 • 晴
+
+
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Host static website on Heroku</title>
+      <link>http://makzan-life.herokuapp.com/articles/002-host-static-websites-on-heroku/</link>
+      <pubDate>Wed, 12 Sep 2012 22:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://makzan-life.herokuapp.com/articles/002-host-static-websites-on-heroku/</guid>
+      <author></author>
+      <description>&lt;p&gt;Heroku is convenient for me to get something up and running in short time. All from my terminal and git repo. It doesn&apos;t have issue for project with PHP, RoR or Node.js. But what I need now is a plain HTML website. 
+
+&lt;/p&gt;
+&lt;p&gt;I just found two approaches to host static websites on &lt;a href=&quot;http://heroku.com&quot;&gt;Heroku&lt;/a&gt;.
+
+
+&lt;/p&gt;
+&lt;h2&gt;Fake it as PHP&lt;/h2&gt;
+&lt;p&gt;This approach is from &lt;a href=&quot;http://kennethreitz.com/static-sites-on-heroku-cedar.html&quot;&gt;Kenneth Reitz&lt;/a&gt;. It creates a PHP file to make Heroku thinks this project is a PHP project.
+
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Elegant Static Sites on Cedar
+
+&lt;/p&gt;
+&lt;p&gt;First, lets turn your site into a PHP &quot;application&quot;:
+
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ touch index.php&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Next, we can fully disable Apache&apos;s PHP engine:
+
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ echo &apos;php_flag engine off&apos; &gt; .htaccess&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;p&gt;When you push this up, you&apos;ll have a bare Apache instance serving up the contents of your site to the world. Best yet, you can do all of the stupid .htaccess tricks that you could on on any traditional shared hosting platform.
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Heroku Buildpack&lt;/h2&gt;
+&lt;p&gt;I found another &lt;a href=&quot;https://github.com/pearkes/heroku-buildpack-static&quot;&gt;easier approach&lt;/a&gt; from &lt;a href=&quot;https://github.com/pearkes&quot;&gt;Jack Pearkes&lt;/a&gt; on Github. It uses the custom buildpack approach that makes this works right after creating the app.
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;heroku create --stack cedar --buildpack https://github.com/pearkes/heroku-buildpack-static&lt;/code&gt;
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Currently, the current website is hosted on Heorku by using the buildpack approach.
+
+&lt;/p&gt;
+&lt;p&gt;▎Makzan • 娜菲 • 晴
+
+&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

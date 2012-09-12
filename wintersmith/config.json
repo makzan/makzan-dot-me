@@ -1,6 +1,6 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://makzan-life.herokuapp.com",
     "name": "Makzan's Life",
     "owner": "Makzan",
     "description": "Recording my life.",
