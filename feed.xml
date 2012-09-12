@@ -2,19 +2,53 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Makzan's Life</title>
-    <atom:link href="http://makzan-life.herokuapp.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://makzan-life.herokuapp.com</link>
+    <atom:link href="http://blog.makzan.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://blog.makzan.me</link>
     <description>Recording my life.</description>
-    <pubDate>Tue, 11 Sep 2012 23:00:00 +0800</pubDate>
+    <pubDate>Tue, 01 Nov 2011 22:00:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
     <item>
-      <title>Gift from Victor – 牛軋糖</title>
-      <link>http://makzan-life.herokuapp.com/articles/001-gift-from-victor/</link>
-      <pubDate>Tue, 11 Sep 2012 23:00:00 +0800</pubDate>
-      <guid isPermaLink="true">http://makzan-life.herokuapp.com/articles/001-gift-from-victor/</guid>
+      <title>和嘉寶等友人生日飯局</title>
+      <link>http://blog.makzan.me/articles/2011-003-dinner-with-carol-gordon-friends/</link>
+      <pubDate>Tue, 01 Nov 2011 22:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://blog.makzan.me/articles/2011-003-dinner-with-carol-gordon-friends/</guid>
       <author></author>
-      <description>&lt;p&gt;&lt;img src=&quot;http://makzan-life.herokuapp.com/articles/001-gift-from-victor/IMG_0339.jpg&quot; alt=&quot;image&quot;&gt;
+      <description>&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2011-003-dinner-with-carol-gordon-friends/friends_dinner.jpg&quot; alt=&quot;Friend Dinner&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;自從上大學認識了嘉寶她們後，每逢十月尾十一月頭便會和她們吃頓晚飯，原因是我、嘉寶、文婷、李健鵬、Tong Tong 都是這幾天生日。今晚如常的聚在一起，不如常的是，原來我們已經有一年沒見了。晚飯過程不詳述，簡而言之就是很高興，能夠談天說地，實在非常開心。謝謝。
+
+&lt;/p&gt;
+&lt;p&gt;▎Makzan • 銅鑼灣 • 晴&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>We deliver great food and lots of fun</title>
+      <link>http://blog.makzan.me/articles/2011-002-we-deliver-great-food-and-lots-of-fun/</link>
+      <pubDate>Mon, 31 Oct 2011 22:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://blog.makzan.me/articles/2011-002-we-deliver-great-food-and-lots-of-fun/</guid>
+      <author></author>
+      <description>&lt;p&gt;早幾天和叮叮在沙田吃晚飯。這間餐廳的標語是 &quot;We deliver great food and lots of fun&quot;。吃過飯後，我正在想那裏何來 fun 之際，服務員送上了一張很大的 coupon，細看下原來是一個卡紙面具，面具那部份由叮叮示範了，至於剩下來的，我示範了。
+
+&lt;/p&gt;
+&lt;p&gt;玩完這個後，確確實實的感受到 Lots of fun。那 Great food 嘛，也不錯的。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2011-002-we-deliver-great-food-and-lots-of-fun/thomas.jpg&quot; alt=&quot;Thomas&quot;&gt;
+&lt;img src=&quot;http://blog.makzan.me/articles/2011-002-we-deliver-great-food-and-lots-of-fun/candy.jpg&quot; alt=&quot;Candy&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;▎Makzan • 沙田 • 晴&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Gift from Victor – 牛軋糖</title>
+      <link>http://blog.makzan.me/articles/2012-001-gift-from-victor/</link>
+      <pubDate>Tue, 11 Sep 2012 23:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://blog.makzan.me/articles/2012-001-gift-from-victor/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2012-001-gift-from-victor/IMG_0339.jpg&quot; alt=&quot;image&quot;&gt;
 
 &lt;/p&gt;
 &lt;p&gt;謝謝 &lt;a href=&quot;http://about.me/victorlam&quot;&gt;Victor Lam&lt;/a&gt; 送我台灣手信－牛軋糖。牛軋糖是牛奶糖加少少花生再加唔同既味道，食落有d似澳門紐結糖，或者花生糖。我遲d去台灣都要買一堆返黎做手信。 
@@ -27,10 +61,32 @@
 </description>
     </item>
     <item>
+      <title>有朋自遠方來的聖誕</title>
+      <link>http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/</link>
+      <pubDate>Fri, 30 Dec 2011 22:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/</guid>
+      <author></author>
+      <description>&lt;p&gt;剛過去的聖誕，和好友一起度過了。有來自加拿大的 Rebecca 小姐，有來自瑞典的 Arwid 先生，有自中學便聚在一起的好友們晚餐。 
+
+&lt;/p&gt;
+&lt;p&gt;It is really a nice Chrismas with friends from the other half of the Earth. Rebecca from Canada, Arwid from Sweden, and friends that grew up with me in Macao.
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/1.jpg&quot; alt=&quot;Rebecca&quot;&gt;
+&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/2.jpg&quot; alt=&quot;Arwid&quot;&gt;
+&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/3.jpg&quot; alt=&quot;CrossThinker&quot;&gt;
+&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/4.jpg&quot; alt=&quot;Billy Au&quot;&gt;
+&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/5.jpg&quot; alt=&quot;CCC&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;▎Makzan • 澳門 • 晴&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Host static website on Heroku</title>
-      <link>http://makzan-life.herokuapp.com/articles/002-host-static-websites-on-heroku/</link>
+      <link>http://blog.makzan.me/articles/2012-002-host-static-websites-on-heroku/</link>
       <pubDate>Wed, 12 Sep 2012 22:00:00 +0800</pubDate>
-      <guid isPermaLink="true">http://makzan-life.herokuapp.com/articles/002-host-static-websites-on-heroku/</guid>
+      <guid isPermaLink="true">http://blog.makzan.me/articles/2012-002-host-static-websites-on-heroku/</guid>
       <author></author>
       <description>&lt;p&gt;Heroku is convenient for me to get something up and running in short time. All from my terminal and git repo. It doesn&apos;t have issue for project with PHP, RoR or Node.js. But what I need now is a plain HTML website. 
 
@@ -79,6 +135,38 @@
 &lt;p&gt;▎Makzan • 娜菲 • 晴
 
 &lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Alley Ooop - A stream of inspiration shots from dribbble</title>
+      <link>http://blog.makzan.me/articles/2011-001-alley-ooop-a-stream-of-inspiration-shots-from-dribbble/</link>
+      <pubDate>Mon, 31 Oct 2011 20:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://blog.makzan.me/articles/2011-001-alley-ooop-a-stream-of-inspiration-shots-from-dribbble/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2011-001-alley-ooop-a-stream-of-inspiration-shots-from-dribbble/alley-ooop.jpg&quot; alt=&quot;image&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;我非常熱愛 dribbble 這個專們給設計師分享手頭工作的網站，尤其喜歡在 Popular Shots 之間閒逛。某日心血來潮，寫了一個 dribbble slideshow app，名為 Alley Ooop。我把所有 dribbble 所需的操作都拿掉了，整個 app 唯一做的就是不斷播下一張 popular shot，自動地播。
+
+&lt;/p&gt;
+&lt;p&gt;這個 app 推出以來，反應一般。近日，終於讓我找到了知音人。他在 App Store review 中寫道：
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Great! 
+
+&lt;/p&gt;
+&lt;p&gt;by AlfredoGarcia1226
+
+&lt;/p&gt;
+&lt;p&gt;I love how I just display my iPhone on my dock while working on designs and at the same time not only view great art but get motivated! Great motivation! Good job!
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我很高興有人懂得欣賞，這也給了我非常大的鼓舞。
+
+&lt;/p&gt;
+&lt;p&gt;▎Makzan • 金錢村 • 晴&lt;/p&gt;
 </description>
     </item>
   </channel>

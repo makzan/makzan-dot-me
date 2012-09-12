@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Host static website on Heroku - Makzan's Life
+    </title>
+    <link rel="alternate" href="http://blog.makzan.me/feed.xml" type="application/rss+xml" title="Recording my life.">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fredericka+the+Great">
+    <link rel="stylesheet" href="/css/github.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header>
+      <div class="inner"><a href="/" class="back"><< back to index</a>
+        <h1>Host static website on Heroku</h1>
+        <p>
+          2012-09-12 22:00
+          written by:<span class="author">Makzan</span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <article class="post">
+        <section class="content"><p>Heroku is convenient for me to get something up and running in short time. All from my terminal and git repo. It doesn&apos;t have issue for project with PHP, RoR or Node.js. But what I need now is a plain HTML website. 
+
+</p>
+<p>I just found two approaches to host static websites on <a href="http://heroku.com">Heroku</a>.
+
+
+</p>
+<h2>Fake it as PHP</h2>
+<p>This approach is from <a href="http://kennethreitz.com/static-sites-on-heroku-cedar.html">Kenneth Reitz</a>. It creates a PHP file to make Heroku thinks this project is a PHP project.
+
+
+</p>
+<blockquote>
+<p>Elegant Static Sites on Cedar
+
+</p>
+<p>First, lets turn your site into a PHP &quot;application&quot;:
+
+</p>
+<p><code>$ touch index.php</code>
+
+</p>
+<p>Next, we can fully disable Apache&apos;s PHP engine:
+
+</p>
+<p><code>$ echo &apos;php_flag engine off&apos; &gt; .htaccess</code>
+
+</p>
+<p>When you push this up, you&apos;ll have a bare Apache instance serving up the contents of your site to the world. Best yet, you can do all of the stupid .htaccess tricks that you could on on any traditional shared hosting platform.
+
+</p>
+</blockquote>
+<h2>Heroku Buildpack</h2>
+<p>I found another <a href="https://github.com/pearkes/heroku-buildpack-static">easier approach</a> from <a href="https://github.com/pearkes">Jack Pearkes</a> on Github. It uses the custom buildpack approach that makes this works right after creating the app.
+
+</p>
+<blockquote>
+<p><code>heroku create --stack cedar --buildpack https://github.com/pearkes/heroku-buildpack-static</code>
+
+</p>
+</blockquote>
+<p>Currently, the current website is hosted on Heorku by using the buildpack approach.
+
+</p>
+<p>▎Makzan • 娜菲 • 晴
+
+</p>
+</section>
+      </article>
+      <div id="disqus_thread">
+        <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'makzanlife'; // required: replace example with your forum shortname
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the<a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by<span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+    <footer>
+      <div class="inner">
+        <p>&copy; 2012 Makzan</p>
+      </div>
+    </footer>
+  </body>
+</html>
