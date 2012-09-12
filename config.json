@@ -1,0 +1,9 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Makzan's Life",
+    "owner": "Makzan",
+    "description": "Recording my life.",
+    "index_articles": 3
+  }
+}
