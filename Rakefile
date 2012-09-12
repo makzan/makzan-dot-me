@@ -6,7 +6,7 @@ end
 
 desc 'Preview the site'
 task :preview do
-  exec 'wintersmith preview -p 1234'
+  exec '/Users/makzan/Documents/git_clones/wintersmith/bin/wintersmith preview -p 1234'
 end
 
 desc 'Push to heroku'
