@@ -7,7 +7,9 @@ template: article.jade
 
 謝謝 [Victor Lam][1] 送我台灣手信－牛軋糖。牛軋糖是牛奶糖加少少花生再加唔同既味道，食落有d似澳門紐結糖，或者花生糖。我遲d去台灣都要買一堆返黎做手信。 
 
-▎Makzan • 兆康 • 晴
+　
+
+▋Makzan • 兆康 • 晴
 
 
 [1]: http://about.me/victorlam

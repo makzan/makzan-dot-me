@@ -11,4 +11,6 @@ I put the wintersmith files into a folder named 'wintersmith' and put the output
 
 In this setting, I can just build the files with `rake build` and push the output files to heroku with `rake push`.
 
-▎Makzan • 娜菲 • 晴
+　
+
+▋Makzan • 娜菲 • 晴

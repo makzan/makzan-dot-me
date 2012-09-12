@@ -13,4 +13,6 @@ It is really a nice Chrismas with friends from the other half of the Earth. Rebe
 ![Billy Au](4.jpg)
 ![CCC](5.jpg)
 
-▎Makzan • 澳門 • 晴
+　
+
+▋Makzan • 澳門 • 晴

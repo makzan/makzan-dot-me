@@ -10,4 +10,6 @@ template: article.jade
 ![Thomas](thomas.jpg)
 ![Candy](candy.jpg)
 
-▎Makzan • 沙田 • 晴
+　
+
+▋Makzan • 沙田 • 晴
