@@ -1,5 +1,6 @@
 {
   "name": "Miss Baker",
   "email": "baker@nasa.gov",
-  "bio": "Space monkey"
+  "bio": "Space monkey",
+  "template": "author-page.jade"
 }

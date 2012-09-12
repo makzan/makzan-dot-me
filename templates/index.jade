@@ -14,9 +14,11 @@ block content
     article.post
       header
         h2
-          a(href=article.url)= article.title
-        p
+          a(href=article.url)= article.title        
+        p          
           mixin author(article.metadata.author)
+          &nbsp; – &nbsp;
+          = article.metadata.date
       section.content!= article.intro
       if article.hasMore
         p.read-more
