@@ -21,17 +21,69 @@
     </header>
     <div id="content">
       <article class="post">
-        <section class="content"><script src="https://gist.github.com/3707395.js"> </script>
+        <section class="content"><p><img src="http://blog.makzan.me/articles/2012-004-host-wintersmith-on-heroku/wintersmith_heroku.jpg" alt="wintersmith + heroku">
 
+</p>
+<p>I want to host wintersmith generated static website on Heroku and face one problem. The default Wintersmith setup does not quite fit the Heroku deployment.
+
+</p>
+<h2>Problem</h2>
+<p>A Wintersmith project is in following folder hierachy. There are folders and files for the logic and content. All I want is to put the output folder as public on Heroku. It will be strange if we put the default Wintersmith site hierachy.
+
+</p>
+<pre><code>Wintersmith Site
+├── config.json                          
+├── build                       &lt;- The output folder that we put <span class="keyword">public</span>.
+├── contents
+│   ├── archive.md
+│   ├── articles                         
+│   ├── authors                          
+│   ├── css
+│   │   ├── github.css
+│   │   └── main.css
+│   ├── feed.json            
+│   ├── index.json
+└── templates
+    ├── archive.jade
+    └── layout.jade</code></pre>
+<h2>Solution</h2>
 <p>This is the setup I use to host a wintersmith static websites on Heroku.
 
 </p>
-<p>I put the wintersmith files into a folder named &apos;wintersmith&apos; and put the output files in git root directory instead of subdirectory. Then a .slugignore file to ignore the wintersmith logic folder.
+<h3>Arrange the folders</h3>
+<p>I put all the wintersmith logic file into a folder named <code>wintersmith</code>. Then set the build output folder to the root of the site folder.
 
 </p>
-<p>In this setting, I can just build the files with <code>rake build</code> and push the output files to heroku with <code>rake push</code>.
+<pre><code>Current Site
+├── .slugignore
+├── Rakefile
+└── wintersmith
+    ├── config.json 
+    └── contents
+          ├── archive.md
+          ├── articles                         
+          ├── authors                          
+          ├── css
+          │     ├── github.css
+          │     └── main.css
+          ├── feed.json            
+          ├── index.json
+          └── templates
+                ├── archive.jade
+                └── layout.jade</code></pre>
+<h3>Rakefile to make life easier</h3>
+<p>For the ease of operation, I wrote a Rakefile for the common preview, build, push operation. I can just build the files with <code>rake build</code> and push the output files to heroku with <code>rake push</code>.
 
 </p>
+<script src="https://gist.github.com/3707395.js"> </script>
+
+
+<h3>Ignoring the wintersmith logic and data files on Heroku</h3>
+<p>Also there is a <code>.slugignore</code> file to ignore the Rakefile and wintersmith folder on Heroku.
+
+</p>
+<pre><code>wintersmith
+Rakefile</code></pre>
 <p>　
 
 </p>

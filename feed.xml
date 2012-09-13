@@ -14,17 +14,69 @@
       <pubDate>Wed, 12 Sep 2012 23:40:00 +0800</pubDate>
       <guid isPermaLink="true">http://blog.makzan.me/articles/2012-004-host-wintersmith-on-heroku/</guid>
       <author></author>
-      <description>&lt;script src=&quot;https://gist.github.com/3707395.js&quot;&gt; &lt;/script&gt;
+      <description>&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2012-004-host-wintersmith-on-heroku/wintersmith_heroku.jpg&quot; alt=&quot;wintersmith + heroku&quot;&gt;
 
+&lt;/p&gt;
+&lt;p&gt;I want to host wintersmith generated static website on Heroku and face one problem. The default Wintersmith setup does not quite fit the Heroku deployment.
+
+&lt;/p&gt;
+&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;p&gt;A Wintersmith project is in following folder hierachy. There are folders and files for the logic and content. All I want is to put the output folder as public on Heroku. It will be strange if we put the default Wintersmith site hierachy.
+
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Wintersmith Site
+├── config.json                          
+├── build                       &lt;- The output folder that we put &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt;.
+├── contents
+│   ├── archive.md
+│   ├── articles                         
+│   ├── authors                          
+│   ├── css
+│   │   ├── github.css
+│   │   └── main.css
+│   ├── feed.json            
+│   ├── index.json
+└── templates
+    ├── archive.jade
+    └── layout.jade&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
 &lt;p&gt;This is the setup I use to host a wintersmith static websites on Heroku.
 
 &lt;/p&gt;
-&lt;p&gt;I put the wintersmith files into a folder named &apos;wintersmith&apos; and put the output files in git root directory instead of subdirectory. Then a .slugignore file to ignore the wintersmith logic folder.
+&lt;h3&gt;Arrange the folders&lt;/h3&gt;
+&lt;p&gt;I put all the wintersmith logic file into a folder named &lt;code&gt;wintersmith&lt;/code&gt;. Then set the build output folder to the root of the site folder.
 
 &lt;/p&gt;
-&lt;p&gt;In this setting, I can just build the files with &lt;code&gt;rake build&lt;/code&gt; and push the output files to heroku with &lt;code&gt;rake push&lt;/code&gt;.
+&lt;pre&gt;&lt;code&gt;Current Site
+├── .slugignore
+├── Rakefile
+└── wintersmith
+    ├── config.json 
+    └── contents
+          ├── archive.md
+          ├── articles                         
+          ├── authors                          
+          ├── css
+          │     ├── github.css
+          │     └── main.css
+          ├── feed.json            
+          ├── index.json
+          └── templates
+                ├── archive.jade
+                └── layout.jade&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Rakefile to make life easier&lt;/h3&gt;
+&lt;p&gt;For the ease of operation, I wrote a Rakefile for the common preview, build, push operation. I can just build the files with &lt;code&gt;rake build&lt;/code&gt; and push the output files to heroku with &lt;code&gt;rake push&lt;/code&gt;.
 
 &lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/3707395.js&quot;&gt; &lt;/script&gt;
+
+
+&lt;h3&gt;Ignoring the wintersmith logic and data files on Heroku&lt;/h3&gt;
+&lt;p&gt;Also there is a &lt;code&gt;.slugignore&lt;/code&gt; file to ignore the Rakefile and wintersmith folder on Heroku.
+
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wintersmith
+Rakefile&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;　
 
 &lt;/p&gt;
@@ -58,11 +110,12 @@
       <description>&lt;p&gt;Heroku is convenient for me to get something up and running in short time. All from my terminal and git repo. It doesn&apos;t have issue for project with PHP, RoR or Node.js. But what I need now is a plain HTML website. 
 
 &lt;/p&gt;
+&lt;h2&gt;Two Approaches&lt;/h2&gt;
 &lt;p&gt;I just found two approaches to host static websites on &lt;a href=&quot;http://heroku.com&quot;&gt;Heroku&lt;/a&gt;.
 
 
 &lt;/p&gt;
-&lt;h2&gt;Fake it as PHP&lt;/h2&gt;
+&lt;h3&gt;1. Fake it as PHP&lt;/h3&gt;
 &lt;p&gt;This approach is from &lt;a href=&quot;http://kennethreitz.com/static-sites-on-heroku-cedar.html&quot;&gt;Kenneth Reitz&lt;/a&gt;. It creates a PHP file to make Heroku thinks this project is a PHP project.
 
 
@@ -91,7 +144,7 @@
 
 &lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;Heroku Buildpack&lt;/h2&gt;
+&lt;h3&gt;2. Heroku Buildpack&lt;/h3&gt;
 &lt;p&gt;I found another &lt;a href=&quot;https://github.com/pearkes/heroku-buildpack-static&quot;&gt;easier approach&lt;/a&gt; from &lt;a href=&quot;https://github.com/pearkes&quot;&gt;Jack Pearkes&lt;/a&gt; on Github. It uses the custom buildpack approach that makes this works right after creating the app.
 
 &lt;/p&gt;
@@ -133,7 +186,7 @@
 </description>
     </item>
     <item>
-      <title>有朋自遠方來的聖誕</title>
+      <title>Friends, 有朋自遠方來的聖誕</title>
       <link>http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/</link>
       <pubDate>Fri, 30 Dec 2011 22:00:00 +0800</pubDate>
       <guid isPermaLink="true">http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/</guid>
@@ -143,12 +196,33 @@
 &lt;/p&gt;
 &lt;p&gt;It is really a nice Chrismas with friends from the other half of the Earth. Rebecca from Canada, Arwid from Sweden, and friends that grew up with me in Macao.
 
+
 &lt;/p&gt;
+&lt;h3&gt;Rebecca&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/1.jpg&quot; alt=&quot;Rebecca&quot;&gt;
-&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/2.jpg&quot; alt=&quot;Arwid&quot;&gt;
-&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/3.jpg&quot; alt=&quot;CrossThinker&quot;&gt;
-&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/4.jpg&quot; alt=&quot;Billy Au&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;I met Rebecca at WorldSkills 2011 in Calagry, Canada. She works there as a helper in the Web Design trade that I&apos;m a member there. She came to Hong Kong during holiday and we hang out for dinner and sweats in Yuen Long.
+
+
+&lt;/p&gt;
+&lt;h3&gt;Arwid&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/2.jpg&quot; alt=&quot;Arwid&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Arwid is from Sweden. He is a web designing teacher and the expert of WorldSkills 2013 in Londan. He came to visit Hong Kong, Macao and GuongZou during Christmas and we had a tour together in Hong Kong and Macao, enjoying the delicious food.
+
+&lt;/p&gt;
+&lt;h3&gt;My Best Friends&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/3.jpg&quot; alt=&quot;CrossThinker&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Best friends that I grew up with. I can&apos;t imagine today&apos;s life without them.
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/4.jpg&quot; alt=&quot;Billy Au&quot;&gt;
 &lt;img src=&quot;http://blog.makzan.me/articles/2011-006-friends-from-the-other-half-of-the-planet/5.jpg&quot; alt=&quot;CCC&quot;&gt;
+
 
 &lt;/p&gt;
 &lt;p&gt;　
