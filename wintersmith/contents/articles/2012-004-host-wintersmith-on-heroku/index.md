@@ -3,7 +3,9 @@ author: Makzan
 date: 2012-09-12 23:40
 template: article.jade
 
-I want to host wintersmith generated static website on Heroku and face one problem.
+![wintersmith + heroku](wintersmith_heroku.jpg)
+
+I want to host wintersmith generated static website on Heroku and face one problem. The default Wintersmith setup does not quite fit the Heroku deployment.
 
 ## Problem
 A Wintersmith project is in following folder hierachy. There are folders and files for the logic and content. All I want is to put the output folder as public on Heroku. It will be strange if we put the default Wintersmith site hierachy.
