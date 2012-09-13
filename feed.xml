@@ -17,7 +17,7 @@
       <description>&lt;p&gt;&lt;img src=&quot;http://blog.makzan.me/articles/2012-004-host-wintersmith-on-heroku/wintersmith_heroku.jpg&quot; alt=&quot;wintersmith + heroku&quot;&gt;
 
 &lt;/p&gt;
-&lt;p&gt;I want to host wintersmith generated static website on Heroku and face one problem. The default Wintersmith setup does not quite fit the Heroku deployment.
+&lt;p&gt;In my previous post, I mentioned how we can &lt;a href=&quot;http://blog.makzan.me/articles/2012-002-host-static-websites-on-heroku/&quot;&gt;host static files on Heroku&lt;/a&gt;. Now I want to host wintersmith generated static website on Heroku and face one problem. The default Wintersmith setup does not quite fit the Heroku deployment.
 
 &lt;/p&gt;
 &lt;h2&gt;Problem&lt;/h2&gt;
@@ -80,7 +80,9 @@ Rakefile&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;　
 
 &lt;/p&gt;
-&lt;p&gt;▋Makzan • 娜菲 • 晴&lt;/p&gt;
+&lt;p&gt;▋Makzan • 娜菲 • 晴
+
+&lt;/p&gt;
 </description>
     </item>
     <item>
