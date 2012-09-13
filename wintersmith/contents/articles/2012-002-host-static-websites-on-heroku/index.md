@@ -5,10 +5,12 @@ template: article.jade
 
 Heroku is convenient for me to get something up and running in short time. All from my terminal and git repo. It doesn't have issue for project with PHP, RoR or Node.js. But what I need now is a plain HTML website. 
 
+## Two Approaches 
+
 I just found two approaches to host static websites on [Heroku][1].
 
 
-## Fake it as PHP
+### 1. Fake it as PHP
 
 This approach is from [Kenneth Reitz][2]. It creates a PHP file to make Heroku thinks this project is a PHP project.
 
@@ -29,7 +31,7 @@ This approach is from [Kenneth Reitz][2]. It creates a PHP file to make Heroku t
 > 
 > When you push this up, you'll have a bare Apache instance serving up the contents of your site to the world. Best yet, you can do all of the stupid .htaccess tricks that you could on on any traditional shared hosting platform.
 
-## Heroku Buildpack
+### 2. Heroku Buildpack
 
 I found another [easier approach][4] from [Jack Pearkes][3] on Github. It uses the custom buildpack approach that makes this works right after creating the app.
 
