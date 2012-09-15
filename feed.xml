@@ -5,9 +5,84 @@
     <atom:link href="http://www.makzan.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://www.makzan.me</link>
     <description>Recording my life.</description>
-    <pubDate>Wed, 12 Sep 2012 23:40:00 +0800</pubDate>
+    <pubDate>Fri, 14 Sep 2012 19:40:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Visiting CrossThinker office</title>
+      <link>http://www.makzan.me/articles/2012-007-visiting-crossthinker/</link>
+      <pubDate>Fri, 14 Sep 2012 19:40:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-007-visiting-crossthinker/</guid>
+      <author></author>
+      <description>&lt;p&gt;有幸造訪思越／mplus總部，由名室內設計師區比比先生親自操刀處理。非常之有家的感覺。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-007-visiting-crossthinker/crossthinker1.jpg&quot; alt=&quot;image&quot;&gt;
+&lt;img src=&quot;http://www.makzan.me/articles/2012-007-visiting-crossthinker/crossthinker2.jpg&quot; alt=&quot;image&quot;&gt;
+&lt;img src=&quot;http://www.makzan.me/articles/2012-007-visiting-crossthinker/crossthinker3.jpg&quot; alt=&quot;image&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;▋Makzan • 思越 • 晴
+
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>梁紫凝的小屋</title>
+      <link>http://www.makzan.me/articles/2012-006-maxie-leung-at-navicake/</link>
+      <pubDate>Fri, 14 Sep 2012 19:30:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-006-maxie-leung-at-navicake/</guid>
+      <author></author>
+      <description>&lt;p&gt;今日俾梁紫凝捉左我入去娜菲既一間玩具小屋企面，佢叫「Thomas哥哥坐定定，唔好出黎」，跟住佢就走左出去廚房玩煮飯仔，話煮好俾我食。我一出去梁紫凝就會捉返我入間屋入面。咁我就唯有拿部電腦入去，坐係一間暗暗地既小屋入面做下野咁。跟住梁紫凝搬越黎越多玩具入去間屋入面，我就趁機會逃走左，跟住就俾佢帶左我去台面前排排坐講故事。佢真係好得意好搞笑。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-006-maxie-leung-at-navicake/maxie-leung.jpg&quot; alt=&quot;image&quot;&gt;
+&lt;img src=&quot;http://www.makzan.me/articles/2012-006-maxie-leung-at-navicake/working-inside-a-toy-house.jpg&quot; alt=&quot;image&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;▋Makzan • 娜菲 • 晴
+
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Redirect between www and naked domain</title>
+      <link>http://www.makzan.me/articles/2012-005-htaccess-www-redirect/</link>
+      <pubDate>Fri, 14 Sep 2012 14:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-005-htaccess-www-redirect/</guid>
+      <author></author>
+      <description>&lt;p&gt;A quick note to use .htaccess to redirect between www and naked domain.
+
+
+&lt;/p&gt;
+&lt;p&gt;I found this rule from the &lt;a href=&quot;http://www.scriptalicious.com&quot;&gt;Scriptalicious&lt;/a&gt; website. The post was posted in 2009 but it still valid and common script today.
+
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;Redirect www to non-www:&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.yourdomain.com [NC]
+RewriteRule ^(.*)$ http:&lt;span class=&quot;comment&quot;&gt;//yourdomain.com/$1 [L,R=301]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Redirect non-www to www:&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
+RewriteRule ^(.*)$ http:&lt;span class=&quot;comment&quot;&gt;//www.yourdomain.com/$1 [L,R=301]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Both of these rules send a full search engine friendly 301 HTTP redirect. They also preserve the entire URL (so yoursite.com/about redirects to www.yoursite.com/about).
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From &lt;a href=&quot;http://www.scriptalicious.com/blog/2009/04/redirecting-www-to-non-www-using-htaccess/&quot;&gt;&lt;a href=&quot;http://www.scriptalicious.com/blog/2009/04/redirecting-www-to-non-www-using-htaccess/&quot;&gt;http://www.scriptalicious.com/blog/2009/04/redirecting-www-to-non-www-using-htaccess/&lt;/a&gt;&lt;/a&gt;
+
+
+&lt;/p&gt;
+&lt;p&gt;▋Makzan • 兆康 • 晴
+
+&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Host wintersmith static website on Heroku</title>
       <link>http://www.makzan.me/articles/2012-004-host-wintersmith-on-heroku/</link>
@@ -97,7 +172,7 @@ Rakefile&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;1 hour and 30 minutes to go. My visa card is ready and please take my money Apple.
 
 &lt;/p&gt;
-&lt;p&gt;　
+&lt;p&gt;&lt;strong&gt;Updated 2012-09-15:&lt;/strong&gt; Everywhere&apos;s Apple Store started the pre-order except Hong Kong! There is no pre-order in Hong Kong and we all need to attend the lucky draw for the iPhone 5. What a sad news.
 
 &lt;/p&gt;
 &lt;p&gt;▋Makzan • 娜菲 • 晴&lt;/p&gt;
