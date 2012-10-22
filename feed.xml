@@ -5,9 +5,93 @@
     <atom:link href="http://www.makzan.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://www.makzan.me</link>
     <description>Recording my life.</description>
-    <pubDate>Fri, 14 Sep 2012 19:40:00 +0800</pubDate>
+    <pubDate>Mon, 22 Oct 2012 18:03:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Finally I bought you, Moleskine</title>
+      <link>http://www.makzan.me/articles/2012-012-finally-i-bought-moleskine-notebook/</link>
+      <pubDate>Mon, 22 Oct 2012 18:03:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-012-finally-i-bought-moleskine-notebook/</guid>
+      <author></author>
+      <description>&lt;p&gt;(To be written)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>台灣婚照之旅</title>
+      <link>http://www.makzan.me/articles/2012-011-nice-trip-to-taiwan/</link>
+      <pubDate>Sun, 21 Oct 2012 22:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-011-nice-trip-to-taiwan/</guid>
+      <author></author>
+      <description>&lt;p&gt;(To be written)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>畫簿 vs iPhone</title>
+      <link>http://www.makzan.me/articles/2012-009-sketchnote-vs-iphone/</link>
+      <pubDate>Thu, 04 Oct 2012 13:31:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-009-sketchnote-vs-iphone/</guid>
+      <author></author>
+      <description>&lt;p&gt;用來用去，都係要買返本真畫冊黎畫野，用 iPhone 係方便，隨身携帶，但咁細個 mon 真係好難畫野。iPad 畫野幾好，不過就太大份，唔係成日係身邊。
+
+&lt;/p&gt;
+&lt;p&gt;而家買本又薄又輕既畫冊，一來方便放係電腦袋唔怕重，二來薄薄地好快畫完一本，會好有成功感。
+
+&lt;/p&gt;
+&lt;p&gt;[img]
+
+&lt;/p&gt;
+&lt;p&gt;Draw My Mind &amp; You Read My Mind
+
+&lt;/p&gt;
+&lt;p&gt;▋Makzan，旺角三聯書店，晴
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Working late at NaviCake</title>
+      <link>http://www.makzan.me/articles/2012-010-working-late-at-navicake/</link>
+      <pubDate>Sat, 22 Sep 2012 02:55:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-010-working-late-at-navicake/</guid>
+      <author></author>
+      <description>&lt;p&gt;在娜菲漏夜趕工做月餅，做到三點。有種大學時在 lab 一班同學開夜車既溫馨感覺。
+
+&lt;/p&gt;
+&lt;p&gt;▋Makzan, Sep 2012, NaviCake
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>李總大婚</title>
+      <link>http://www.makzan.me/articles/2012-008-steve-wedding/</link>
+      <pubDate>Sun, 16 Sep 2012 23:55:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-008-steve-wedding/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-008-steve-wedding/cookies-for-steve-wedding.jpg&quot; alt=&quot;image&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;今天真的很開心，是日是李總結婚大日子。我晨早坐的士由兆康去到大埔康樂園做兄弟，叮叮要趕工，黎唔到飲，就整左一盒曲奇黎賀李總大婚。
+
+
+&lt;/p&gt;
+&lt;p&gt;1949 年的紅色老爺車
+
+&lt;/p&gt;
+&lt;p&gt;超大既康樂園
+
+&lt;/p&gt;
+&lt;p&gt;豪華晚宴，人生真係冇幾多次可以食到鵝肝配乳豬皮。
+
+
+
+
+
+&lt;/p&gt;
+&lt;p&gt;▋Makzan, Sep 2012, 香港康樂園
+
+&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Visiting CrossThinker office</title>
       <link>http://www.makzan.me/articles/2012-007-visiting-crossthinker/</link>
@@ -378,71 +462,6 @@ Rakefile&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/p&gt;
 &lt;p&gt;▋Makzan • 金錢村 • 晴&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>李總大婚author: makzandate: 2012-09-16 23:55template: article.jade</title>
-      <link>http://www.makzan.me/articles/2012-008-steve-wedding/</link>
-      <pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
-      <guid isPermaLink="true">http://www.makzan.me/articles/2012-008-steve-wedding/</guid>
-      <author></author>
-      <description>&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-008-steve-wedding/cookies-for-steve-wedding.jpg&quot; alt=&quot;image&quot;&gt;
-
-&lt;/p&gt;
-&lt;p&gt;今天真的很開心，是日是李總結婚大日子。我晨早坐的士由兆康去到大埔康樂園做兄弟，叮叮要趕工，黎唔到飲，就整左一盒曲奇黎賀李總大婚。
-
-
-&lt;/p&gt;
-&lt;p&gt;1949 年的紅色老爺車
-
-&lt;/p&gt;
-&lt;p&gt;超大既康樂園
-
-&lt;/p&gt;
-&lt;p&gt;豪華晚宴，人生真係冇幾多次可以食到鵝肝配乳豬皮。
-
-
-
-
-
-
-&lt;/p&gt;
-&lt;p&gt;▋Makzan, Sep 2012, 香港科學園
-
-&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>畫簿 vs iPhoneauthor: makzandate: 2012-10-04 13:31template: article.jade</title>
-      <link>http://www.makzan.me/articles/2012-009-sketchnote-vs-iphone/</link>
-      <pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
-      <guid isPermaLink="true">http://www.makzan.me/articles/2012-009-sketchnote-vs-iphone/</guid>
-      <author></author>
-      <description>&lt;p&gt;用來用去，都係要買返本真畫冊黎畫野，用 iPhone 係方便，隨身携帶，但咁細個 mon 真係好難畫野。iPad 畫野幾好，不過就太大份，唔係成日係身邊。
-
-&lt;/p&gt;
-&lt;p&gt;而家買本又薄又輕既畫冊，一來方便放係電腦袋唔怕重，二來薄薄地好快畫完一本，會好有成功感。
-
-&lt;/p&gt;
-&lt;p&gt;[img]
-
-&lt;/p&gt;
-&lt;p&gt;Draw My Mind &amp; You Read My Mind
-
-&lt;/p&gt;
-&lt;p&gt;▋Makzan，旺角三聯書店，晴&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Working late at NaviCakeauthor: makzandate: 2012-09-22 02:55template: article.jade</title>
-      <link>http://www.makzan.me/articles/2012-010-working-late-at-navicake/</link>
-      <pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
-      <guid isPermaLink="true">http://www.makzan.me/articles/2012-010-working-late-at-navicake/</guid>
-      <author></author>
-      <description>&lt;p&gt;在娜菲漏夜趕工做月餅，做到三點。有種大學時在 lab 一班同學開夜車既溫馨感覺。
-
-&lt;/p&gt;
-&lt;p&gt;▋Makzan, Sep 2012, NaviCake&lt;/p&gt;
 </description>
     </item>
   </channel>
