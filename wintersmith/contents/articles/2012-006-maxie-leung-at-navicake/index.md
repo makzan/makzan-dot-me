@@ -1,5 +1,5 @@
 title: 梁紫凝的小屋
-author: Makzan
+author: makzan
 date: 2012-09-14 19:30
 template: article.jade
 

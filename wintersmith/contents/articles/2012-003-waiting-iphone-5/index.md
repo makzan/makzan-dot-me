@@ -1,5 +1,5 @@
 title: Waiting iPhone 5
-author: Makzan
+author: makzan
 date: 2012-09-12 23:29
 template: article.jade
 

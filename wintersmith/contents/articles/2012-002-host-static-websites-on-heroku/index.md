@@ -1,11 +1,11 @@
 title: Host static website on Heroku
-author: Makzan
+author: makzan
 date: 2012-09-12 22:00
 template: article.jade
 
-Heroku is convenient for me to get something up and running in short time. All from my terminal and git repo. It doesn't have issue for project with PHP, RoR or Node.js. But what I need now is a plain HTML website. 
+Heroku is convenient for me to get something up and running in short time. All from my terminal and git repo. It doesn't have issue for project with PHP, RoR or Node.js. But what I need now is a plain HTML website.
 
-## Two Approaches 
+## Two Approaches
 
 I just found two approaches to host static websites on [Heroku][1].
 
@@ -16,19 +16,19 @@ This approach is from [Kenneth Reitz][2]. It creates a PHP file to make Heroku t
 
 
 > ### Elegant Static Sites on Cedar
-> 
+>
 > First, lets turn your site into a PHP "application":
-> 
+>
 > `$ touch index.php`
 >
 > 　
-> 
+>
 > Next, we can fully disable Apache's PHP engine:
-> 
+>
 > `$ echo 'php_flag engine off' > .htaccess`
 >
 > 　
-> 
+>
 > When you push this up, you'll have a bare Apache instance serving up the contents of your site to the world. Best yet, you can do all of the stupid .htaccess tricks that you could on on any traditional shared hosting platform.
 
 ### 2. Heroku Buildpack

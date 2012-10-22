@@ -1,5 +1,5 @@
 title: Host wintersmith static website on Heroku
-author: Makzan
+author: makzan
 date: 2012-09-12 23:40
 template: article.jade
 

@@ -1,5 +1,5 @@
 title: Visiting CrossThinker office
-author: Makzan
+author: makzan
 date: 2012-09-14 19:40
 template: article.jade
 

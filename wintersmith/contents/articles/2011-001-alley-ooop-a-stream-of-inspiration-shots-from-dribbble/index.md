@@ -1,5 +1,5 @@
 title: Alley Ooop - A stream of inspiration shots from dribbble
-author: Makzan
+author: makzan
 date: 2011-10-31 20:00
 template: article.jade
 
@@ -9,10 +9,10 @@ template: article.jade
 
 這個 app 推出以來，反應一般。近日，終於讓我找到了知音人。他在 App Store review 中寫道：
 
-> Great! 
-> 
+> Great!
+>
 > by AlfredoGarcia1226
-> 
+>
 > I love how I just display my iPhone on my dock while working on designs and at the same time not only view great art but get motivated! Great motivation! Good job!
 
 我很高興有人懂得欣賞，這也給了我非常大的鼓舞。

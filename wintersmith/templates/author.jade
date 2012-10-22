@@ -2,7 +2,7 @@
 mixin author(authorName)
   - var author = contents.authors[authorName + '.json']
   span.author
-    if author.metadata.twitter
+    if author && author.metadata.twitter
       a(href='http://twitter.com/'+author.metadata.twitter)= author.metadata.name
     else if author
       a(href='mailto:'+author.metadata.email)= author.metadata.name

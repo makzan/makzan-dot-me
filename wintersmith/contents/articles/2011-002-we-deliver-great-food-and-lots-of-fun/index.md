@@ -1,5 +1,5 @@
 title: We deliver great food and lots of fun
-author: Makzan
+author: makzan
 date: 2011-10-31 22:00
 template: article.jade
 
