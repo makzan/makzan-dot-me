@@ -12,16 +12,16 @@ A Wintersmith project is in following folder hierachy. There are folders and fil
 
 ```
 Wintersmith Site
-├── config.json                          
+├── config.json
 ├── build                       <- The output folder that we put public.
 ├── contents
 │   ├── archive.md
-│   ├── articles                         
-│   ├── authors                          
+│   ├── articles
+│   ├── authors
 │   ├── css
 │   │   ├── github.css
 │   │   └── main.css
-│   ├── feed.json            
+│   ├── feed.json
 │   ├── index.json
 └── templates
     ├── archive.jade
@@ -41,15 +41,15 @@ Current Site
 ├── .slugignore
 ├── Rakefile
 └── wintersmith
-    ├── config.json 
+    ├── config.json
     └── contents
           ├── archive.md
-          ├── articles                         
-          ├── authors                          
+          ├── articles
+          ├── authors
           ├── css
           │     ├── github.css
           │     └── main.css
-          ├── feed.json            
+          ├── feed.json
           ├── index.json
           └── templates
                 ├── archive.jade
@@ -75,4 +75,4 @@ Rakefile
 
 ▋Makzan • 娜菲 • 晴
 
-[1]: http://blog.makzan.me/articles/2012-002-host-static-websites-on-heroku/
+[1]: /articles/2012-002-host-static-websites-on-heroku/

@@ -3,4 +3,6 @@ author: makzan
 date: 2012-10-21 22:00
 template: article.jade
 
-(To be written)
+![Taiwan Pre-Wedding Photos Trip](taiwan-trip.jpg)
+
+▋Makzan, Oct 2012, Taiwan

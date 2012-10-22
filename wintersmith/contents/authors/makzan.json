@@ -1,6 +1,8 @@
 {
   "name": "Makzan",
   "email": "makzan@42games.net",
+  "twitter": "makzan",
+  "tumblr": "http://makzan.tumblr.com",
   "bio": "I love to build things.",
   "template": "author-page.jade"
 }
