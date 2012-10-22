@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Host wintersmith static website on Heroku - Makzan's Life
+    <title>Host wintersmith static website on Heroku -Makzan's Life
     </title>
     <link rel="alternate" href="http://www.makzan.me/feed.xml" type="application/rss+xml" title="Recording my life.">
     <link rel="stylesheet" href="/css/github.css">
@@ -15,17 +15,17 @@
         <p>Recording my life.</p>
       </div>
     </header>
-    <div id="content"><a href="/" class="back"><< back to index</a>
+    <div id="content"><a href="/" class="back">← back to index</a>
       <h1>Host wintersmith static website on Heroku</h1>
       <p>
         2012-09-12 23:40
-        written by:<span class="author">Makzan</span>
+        written by:<span class="author"><a href="http://twitter.com/makzan">Makzan</a></span>
       </p>
       <article class="post">
         <section class="content"><p><img src="http://www.makzan.me/articles/2012-004-host-wintersmith-on-heroku/wintersmith_heroku.jpg" alt="wintersmith + heroku">
 
 </p>
-<p>In my previous post, I mentioned how we can <a href="http://blog.makzan.me/articles/2012-002-host-static-websites-on-heroku/">host static files on Heroku</a>. Now I want to host wintersmith generated static website on Heroku and face one problem. The default Wintersmith setup does not quite fit the Heroku deployment.
+<p>In my previous post, I mentioned how we can <a href="http://www.makzan.me/articles/2012-002-host-static-websites-on-heroku/">host static files on Heroku</a>. Now I want to host wintersmith generated static website on Heroku and face one problem. The default Wintersmith setup does not quite fit the Heroku deployment.
 
 </p>
 <h2>Problem</h2>
@@ -33,16 +33,16 @@
 
 </p>
 <pre><code>Wintersmith Site
-├── config.json                          
+├── config.json
 ├── build                       &lt;- The output folder that we put <span class="keyword">public</span>.
 ├── contents
 │   ├── archive.md
-│   ├── articles                         
-│   ├── authors                          
+│   ├── articles
+│   ├── authors
 │   ├── css
 │   │   ├── github.css
 │   │   └── main.css
-│   ├── feed.json            
+│   ├── feed.json
 │   ├── index.json
 └── templates
     ├── archive.jade
@@ -59,15 +59,15 @@
 ├── .slugignore
 ├── Rakefile
 └── wintersmith
-    ├── config.json 
+    ├── config.json
     └── contents
           ├── archive.md
-          ├── articles                         
-          ├── authors                          
+          ├── articles
+          ├── authors
           ├── css
           │     ├── github.css
           │     └── main.css
-          ├── feed.json            
+          ├── feed.json
           ├── index.json
           └── templates
                 ├── archive.jade
