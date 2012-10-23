@@ -12,3 +12,5 @@ template: article.jade
 ![pre-wedding photo](IMG_0411.jpg)
 ![pre-wedding photo](IMG_0530.jpg)
 ![pre-wedding photo](IMG_0523.jpg)
+
+▋Makzan, Oct 2012, 澳門家
