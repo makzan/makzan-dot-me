@@ -6,7 +6,7 @@ html(lang='en')
       title
         block title
           = locals.name
-      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)      
+      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
       link(rel='stylesheet', href='/css/github.css')
       link(rel='stylesheet', href='/css/main.css')
   body
@@ -22,8 +22,10 @@ html(lang='en')
     footer
       div.inner
         block footer
-          p             
+          p
             &copy; #{ new Date().getFullYear() } #{ locals.owner }
-            &nbsp;&nbsp; 
+            &nbsp;&nbsp;
             a(href='/archive.html') Archives
-            
+          p if you find any article looks incomplete, that's normal. My life keeps changing and I will keep updating new and old articles.
+          p hand made in macao.
+

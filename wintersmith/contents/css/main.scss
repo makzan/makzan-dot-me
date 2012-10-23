@@ -63,7 +63,7 @@ a#archive {
 }
 
 p {
-  margin-bottom: 9px;
+  margin-bottom: 2em;
 }
 
 
@@ -82,7 +82,7 @@ body > header {
   background: -webkit-linear-gradient(top,  rgba(23,72,146,1) 0%,rgba(28,86,149,1) 25%,rgba(37,93,161,1) 50%,rgba(51,107,164,1) 75%,rgba(54,111,165,1) 100%);
   background: -o-linear-gradient(top,  rgba(23,72,146,1) 0%,rgba(28,86,149,1) 25%,rgba(37,93,161,1) 50%,rgba(51,107,164,1) 75%,rgba(54,111,165,1) 100%);
   background: -ms-linear-gradient(top,  rgba(23,72,146,1) 0%,rgba(28,86,149,1) 25%,rgba(37,93,161,1) 50%,rgba(51,107,164,1) 75%,rgba(54,111,165,1) 100%);
-  background: linear-gradient(top,  rgba(23,72,146,1) 0%,rgba(28,86,149,1) 25%,rgba(37,93,161,1) 50%,rgba(51,107,164,1) 75%,rgba(54,111,165,1) 100%);  
+  background: linear-gradient(top,  rgba(23,72,146,1) 0%,rgba(28,86,149,1) 25%,rgba(37,93,161,1) 50%,rgba(51,107,164,1) 75%,rgba(54,111,165,1) 100%);
 }
 
 body >footer *,
@@ -98,6 +98,10 @@ body > header .inner {
 
 body > footer {
   margin: 0 40px;
+
+  p {
+    margin-bottom: 1em;
+  }
 }
 
 body > footer .inner {
