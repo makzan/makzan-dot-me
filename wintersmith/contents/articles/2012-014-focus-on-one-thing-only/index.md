@@ -1,6 +1,6 @@
 title: Focus on one thing only
 author: makzan
-date: 2012-10-23 10:38
+date: 2012-10-23 22:38
 template: article.jade
 
 My problem for long time is _focus_. I have been having too many things happening at the same time.
