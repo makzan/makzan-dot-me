@@ -7,7 +7,7 @@ My problem for long time is _focus_. I have been having too many things happenin
 
 Last night I read an email article named [Why focus (not effort) is the key to getting stuff done][1]. I wanna share the most important part of them here.
 
-__The one sentence to remember if you leave this page now.___
+__The one sentence to remember if you leave this page now.__
 > Being more focused is easy: stop having so many damn goals.
 
 __Only have one goal at a time.__
