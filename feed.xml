@@ -5,9 +5,35 @@
     <atom:link href="http://www.makzan.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://www.makzan.me</link>
     <description>Recording my personal life.</description>
-    <pubDate>Sat, 03 Nov 2012 20:29:00 +0800</pubDate>
+    <pubDate>Tue, 06 Nov 2012 23:59:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Count99 HTML5 Canvas Preloader</title>
+      <link>http://www.makzan.me/articles/2012-020-count99-preloader/</link>
+      <pubDate>Tue, 06 Nov 2012 23:59:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-020-count99-preloader/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-020-count99-preloader/screenshot.png&quot; alt=&quot;image&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Made a canvas preloading for the game graphics.
+
+&lt;/p&gt;
+&lt;video poster=&quot;screenshot.png&quot; controls width=&quot;100%&quot;&gt;
+        &lt;source src=&quot;articles/2012-020-count99-preloader/demo-count99-with-graphics-low.mp4&quot; type='video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;'&gt;
+&lt;/video&gt;
+
+&lt;p&gt;And here is a video showing the preloading effect.
+
+&lt;/p&gt;
+&lt;p&gt;By the way, I used sloppy to simulate the slow internet connection.
+
+&lt;/p&gt;
+&lt;p&gt;▋Makzan, Nov 2012, NaviCake
+&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Finally, I got the iPhone 5</title>
       <link>http://www.makzan.me/articles/2012-019-iphone-5-finally/</link>
