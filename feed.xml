@@ -5,9 +5,34 @@
     <atom:link href="http://www.makzan.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://www.makzan.me</link>
     <description>Recording my personal life.</description>
-    <pubDate>Tue, 06 Nov 2012 23:59:00 +0800</pubDate>
+    <pubDate>Sat, 10 Nov 2012 19:04:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>I hate PHP</title>
+      <link>http://www.makzan.me/articles/2012-021-i-hate-php/</link>
+      <pubDate>Sat, 10 Nov 2012 19:04:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-021-i-hate-php/</guid>
+      <author></author>
+      <description>&lt;p&gt;In the past year, I keep using both PHP and Ruby on Rails in my projects. Everytime I got to write PHP code, I hate it. I hate it especially because I keep repeating myself in PHP, with those dump code.
+
+&lt;/p&gt;
+&lt;p&gt;Yes, you can still write non-repeating and elegant code in PHP. But the point is that the environment doesn&apos;t encourage this to happen. In contract, RoR encourages programmers to write less code on common pattern.
+
+&lt;/p&gt;
+&lt;p&gt;In conclusion, I am now a fan of the following philosophy, 
+
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&quot;A happy programmer is a productive programmer&quot;&lt;/strong&gt;
+
+&lt;/p&gt;
+&lt;p&gt;And PHP doesn’t make me happy at all. period.
+
+&lt;/p&gt;
+&lt;p&gt;▋Makzan, Nov 2012, Lost in the PHP code.
+&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Count99 HTML5 Canvas Preloader</title>
       <link>http://www.makzan.me/articles/2012-020-count99-preloader/</link>
