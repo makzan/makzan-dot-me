@@ -5,9 +5,94 @@
     <atom:link href="http://www.makzan.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://www.makzan.me</link>
     <description>Recording my personal life.</description>
-    <pubDate>Sat, 10 Nov 2012 19:04:00 +0800</pubDate>
+    <pubDate>Thu, 13 Dec 2012 23:03:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Rush Game Website</title>
+      <link>http://www.makzan.me/articles/2012-027-rush-game-website/</link>
+      <pubDate>Thu, 13 Dec 2012 23:03:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-027-rush-game-website/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-027-rush-game-website/img_6153.jpg&quot; alt=&quot;Rush Game&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Preparing the website for the rush game, a game example for my upcoming HTML5 game dev video screencast.
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>A meeting trip</title>
+      <link>http://www.makzan.me/articles/2012-026-a-meeting-day/</link>
+      <pubDate>Thu, 13 Dec 2012 20:02:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-026-a-meeting-day/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-026-a-meeting-day/img_4157.jpg&quot; alt=&quot;2012.12.12 $1212&quot;&gt;
+&lt;img src=&quot;http://www.makzan.me/articles/2012-026-a-meeting-day/img_6617.jpg&quot; alt=&quot;image&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Last afternoon met with Ping from Internet Socity. Then meet with Gordon, Carol, Manteng.
+
+&lt;/p&gt;
+&lt;p&gt;This morning I was together with Gordon; Then noon lunch with Edmond Yu and Jack. 2nd lunch with Intoxic; Then meet with another guy in Startup Commune; And eventing met with Franklin Ng.
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Working late at NaviCake</title>
+      <link>http://www.makzan.me/articles/2012-025-work-late-at-navicake/</link>
+      <pubDate>Tue, 11 Dec 2012 05:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-025-work-late-at-navicake/</guid>
+      <author></author>
+      <description>&lt;p&gt;Another day that works late at NaviCake. Leave at 05:10.
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>First time using iPhone to take Panorama</title>
+      <link>http://www.makzan.me/articles/2012-023-navicake-panorama/</link>
+      <pubDate>Tue, 11 Dec 2012 03:58:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-023-navicake-panorama/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-023-navicake-panorama/img_0846.jpeg&quot; alt=&quot;NaviCake&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;First try on iPhone Panorama.
+
+&lt;/p&gt;
+&lt;p&gt;I like the notice message when I am moving too fast. It tells me to slow down!
+
+
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Laravel PHP Framework</title>
+      <link>http://www.makzan.me/articles/2012-024-laravel-php-framework/</link>
+      <pubDate>Mon, 10 Dec 2012 23:23:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-024-laravel-php-framework/</guid>
+      <author></author>
+      <description>&lt;p&gt;The Laravel PHP Framework seems promising. It is like Rails that is clean.
+&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>iPhone Stand</title>
+      <link>http://www.makzan.me/articles/2012-022-iphone-stand/</link>
+      <pubDate>Mon, 10 Dec 2012 19:56:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-022-iphone-stand/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-022-iphone-stand/img_6500.jpg&quot; alt=&quot;iphone stand result&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;這個 iPhone Stand 夠創意，同三個文件夾組成。
+
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-022-iphone-stand/img_0210.jpg&quot; alt=&quot;iPhone stand&quot;&gt;
+&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>I hate PHP</title>
       <link>http://www.makzan.me/articles/2012-021-i-hate-php/</link>
