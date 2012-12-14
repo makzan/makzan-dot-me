@@ -5,9 +5,21 @@
     <atom:link href="http://www.makzan.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://www.makzan.me</link>
     <description>Recording my personal life.</description>
-    <pubDate>Thu, 13 Dec 2012 23:03:00 +0800</pubDate>
+    <pubDate>Fri, 14 Dec 2012 10:02:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>PhoneMan</title>
+      <link>http://www.makzan.me/articles/2012-028-phone-man/</link>
+      <pubDate>Fri, 14 Dec 2012 10:02:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2012-028-phone-man/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;http://www.makzan.me/articles/2012-028-phone-man/phoneman.jpg&quot; alt=&quot;PhoneMan&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;PhoneMan&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Rush Game Website</title>
       <link>http://www.makzan.me/articles/2012-027-rush-game-website/</link>
