@@ -5,9 +5,25 @@
     <atom:link href="http://www.makzan.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://www.makzan.me</link>
     <description>Recording my personal life.</description>
-    <pubDate>Wed, 02 Jan 2013 15:58:00 +0800</pubDate>
+    <pubDate>Thu, 03 Jan 2013 10:17:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Editing the Upcoming HTML5 Games Dev Screencast</title>
+      <link>http://www.makzan.me/articles/2013-002-editing-rush-game-screencast/</link>
+      <pubDate>Thu, 03 Jan 2013 10:17:00 +0800</pubDate>
+      <guid isPermaLink="true">http://www.makzan.me/articles/2013-002-editing-rush-game-screencast/</guid>
+      <author></author>
+      <description>&lt;p&gt;錄左兩個幾月，終於要搞掂好 first draft，跟住落黎既工作就係執靚佢，再推出街。
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/d5b43534ab14b5b61ad7bb9fd6c4325a/tumblr_mg0dw0CrJT1rttxpdo1_1280.png&quot; alt=&quot;screenshot of editing in ScreenFlow&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;圖為在 ScreenFlow 編輯中的畫面。
+&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>I am writing 750 words every day</title>
       <link>http://www.makzan.me/articles/2013-001-happy-new-year-i-am-writing-750-words-every-day/</link>
